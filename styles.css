@@ -1,0 +1,101 @@
+body{
+	background: url(img/fon2.jpg);
+	background-size: cover;
+}
+
+a{
+	color: #f7f7f7;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.container{
+	width: 400px;
+	margin: 250px auto 0 auto;
+	background-color:rgba(221, 198, 198, 0.5);
+	text-align: center;
+	box-shadow: 0 -5px 0 #3adbfd;
+	border-radius: 0 0 10px 13px;
+	padding-bottom: 20px;
+}
+
+input[type="text"],[type="password"]{
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	margin-bottom: 35px; 
+	border-radius: 4px;
+	padding-left: 40px;
+}
+
+.container img{
+	width: 120px;
+	height: 120px;
+	margin: -60 0 auto 0;
+	border: 5px solid black;
+	border-radius: 50%;
+	box-shadow: 0 -5px 0 #3adbfd;
+}
+
+.dws-submit{
+	padding:13px 30px;
+	margin: 5px 0 20px 0;
+	font-size: 15px;
+	color: #ffffff;
+	background-color: #2ca8c6;
+	border: none;
+	border-bottom: 4px solid #6ee9fd;
+	cursor: pointer;
+}
+
+.dws-submit:hover{
+	transition: all 3.5s;
+	background:rgb(93, 19, 19);
+	color: #2c536c;
+}
+
+.dws-social {
+ color: #fff;
+ font-size: 20px;
+ width: 20px;
+ padding: 10px;
+}    
+
+.dws-input::before{
+ font-family: "FontAwesome";
+ content: "\f007";
+ position: absolute;
+ font-size: 30px;
+ padding: 10px 0 0 7px;
+ color: #2c536c;
+}
+.dws-input:nth-child(2)::before{
+content: "\f023";
+}   
+
+.dws-input:hover::before{
+    color: #319ebc;
+    transition: all 0.3s;
+}    
+
+.dws-input input:hover{
+ box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.35);
+}  
+
+.social i{
+ color: #FFFFFF;
+ font-size: 20px;
+ width: 20px;
+ padding: 10px;
+}  
+
+.social i:hover{
+ background-color: #FBFBFB;
+ color: #65E8F0;
+ border-radius: 5px;
+ cursor: pointer;
+ } 
+
+
