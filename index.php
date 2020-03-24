@@ -28,7 +28,7 @@
         <i class="fa fa-vk" aria-hidden="true"></i>
         <i class="fa fa-odnoklassniki" aria-hidden="true"></i>
         <i class="fa fa-whatsapp" aria-hidden="true"></i>
-        <i class="fa fa-google-plus" aria-hidden="true"></i>
+        <i class="fa fa-google-plus" aria-hidden="true"></i>git
         <i class="fa fa-pinterest" aria-hidden="true"></i>
     </div>
 </div>
