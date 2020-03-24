@@ -10,10 +10,9 @@
     <title>тестовая страница</title>
 </head>
 <body>
-<form action="login.php" method="POST">
 <div class="container">
     <img src="img/car.jpg">
-    <form>
+    <form action="login.php" method="POST">
         <div class="dws-input">
             <input type="text" name="username" placeholder="Введите логин">
         </div>
@@ -32,6 +31,5 @@
         <i class="fa fa-pinterest" aria-hidden="true"></i>
     </div>
 </div>
-</form>
 </body>
 </html>
